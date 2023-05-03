@@ -40,7 +40,7 @@ export const Home = () => {
           variant="h5"
           color={'#ababab'}
         >
-            Neste site vocês conhecerão nosso trabalho sobre o Esgotamento Sanitário. Realizamos este projeto em pareceria com a Prefeitura Municipal de Maratá, com o objetivo de mostrar à população como deve ser a construção adequada das fossas residênciais e evidenciar possíveis problemas causados pela má elaboração das mesmas.
+            Neste site vocês conhecerão nosso trabalho sobre o Esgotamento Sanitário. Realizamos este projeto em pareceria com a Prefeitura Municipal de Maratá, com o objetivo de mostrar à população como deve ser a construção adequada das fossas residenciais e evidenciar possíveis problemas causados pela má elaboração das mesmas.
         </Typography>
       </Grid>
         <Box
@@ -48,7 +48,7 @@ export const Home = () => {
           width={milPx ? '40%' : quinhentosPx ? '45%' : '100%'}
           height={milPx ? '200px' : '250px'}
         >
-          <Box width={'100%'} height={'45%'} padding={'20px'} textAlign={'center'}>
+          <Box className='box-secondary' >
           <Typography
           style={{ fontFamily: 'Tilt Warp, cursive' }}
           variant="h3"
@@ -78,7 +78,7 @@ export const Home = () => {
           width={milPx ? '26.1%' : quinhentosPx ? '45%' : '100%'}
           height={milPx ? '90%' : '100%'}
         >
-          <Box width={'100%'} height={'45%'} padding={'20px'}>
+          <Box className='box-secondary'>
             <Typography
               style={{ fontFamily: 'Tilt Warp, cursive', color: '#d0d0d0' }}
               variant="body2"
@@ -92,7 +92,7 @@ export const Home = () => {
           width={milPx ? '26.2%' : quinhentosPx ? '45%' : '100%'}
           height={milPx ? '90%' : '100%'}
         >
-          <Box width={'100%'} height={'45%'} padding={'20px'}>
+          <Box className='box-secondary'>
             <Typography
               style={{ fontFamily: 'Tilt Warp, cursive', color: '#d0d0d0' }}
               variant="body2"
@@ -106,7 +106,7 @@ export const Home = () => {
           width={milPx ? '26.2%' : quinhentosPx ? '45%' : '100%'}
           height={milPx ? '90%' : '100%'}
         >
-          <Box width={'100%'} height={'45%'} padding={'20px'}>
+          <Box className='box-secondary'>
             <Typography
               style={{ fontFamily: 'Tilt Warp, cursive', color: '#d0d0d0' }}
               variant="body2"
@@ -120,7 +120,7 @@ export const Home = () => {
           width={milPx ? '40%' : quinhentosPx ? '45%' : '100%'}
           height={milPx ? '90%' : '100%'}
         >
-          <Box width={'100%'} height={'45%'} padding={'20px'}>
+          <Box className='box-secondary'>
             <Typography
               style={{ fontFamily: 'Tilt Warp, cursive', color: '#d0d0d0' }}
               variant="body2"
@@ -134,7 +134,7 @@ export const Home = () => {
           width={milPx ? '40%' : quinhentosPx ? '45%' : '100%'}
           height={milPx ? '90%' : '100%'}
         >
-          <Box width={'100%'} height={'45%'} padding={'20px'}>
+          <Box className='box-secondary'>
             <Typography
               style={{ fontFamily: 'Tilt Warp, cursive', color: '#d0d0d0' }}
               variant="body2"
