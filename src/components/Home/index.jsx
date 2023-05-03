@@ -37,7 +37,7 @@ export const Home = () => {
         </Typography>
         <Typography
           style={{ fontFamily: 'Tilt Warp, cursive' }}
-          variant="h5"
+          variant="h6"
           color={'#ababab'}
         >
             Neste site vocês conhecerão nosso trabalho sobre o Esgotamento Sanitário. Realizamos este projeto em pareceria com a Prefeitura Municipal de Maratá, com o objetivo de mostrar à população como deve ser a construção adequada das fossas residenciais e evidenciar possíveis problemas causados pela má elaboração das mesmas.
