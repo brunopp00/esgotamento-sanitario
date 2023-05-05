@@ -255,7 +255,7 @@ export const Home = () => {
                         <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive'}}>
                             • Instalação do anel de inspeção: 
                         </span><br/>
-                        Coloque um anel de concreto com tampa na parte superior do tubo de entrada para permitir a inspeção e a limpeza da fossa.
+                        Coloque um  anel de concreto com tampa na parte superior do tubo de entrada para permitir a inspeção e a limpeza da fossa.
                     </ul>
                     <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>
                         <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive'}}>
