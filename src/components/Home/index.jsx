@@ -1,7 +1,6 @@
 import { Accordion, AccordionDetails, AccordionSummary, Box, Grid, Typography, useMediaQuery } from "@mui/material";
 import {  } from "react";
 // import imgFossas from '../../assets/fossas.webp'
-import './styles.css';
 import { ArrowDownward } from "@mui/icons-material";
 import { makeStyles } from "@material-ui/core";
 
