@@ -2,63 +2,9 @@ import { Accordion, AccordionDetails, AccordionSummary, Box, Grid, Typography, u
 import {  } from "react";
 // import imgFossas from '../../assets/fossas.webp'
 import { ArrowDownward } from "@mui/icons-material";
-import { makeStyles } from "@material-ui/core";
-
-const useStyles = makeStyles(() => ({
-    accordionRoot: { 
-      '& .MuiButtonBase-root': {
-            backgroundColor:'#282828',
-      },
-      '& .MuiAccordion-region': {
-        backgroundColor:'#282828',
-        color: 'white',
-    },
-    width: '81%',
-    marginBottom:'10px',
-    borderRadius:'10px'
-
-
-    },
-    box: {
-        padding:'20px',
-        backgroundColor: '#282828',
-        borderRadius:'10px',
-        display:'flex',
-        flexDirection:'column',
-        margin:'10px',
-    },
-    boxSecondary: {
-        backgroundColor: '#282828',
-        textAlign:'center',
-    },
-    icon: {
-        color:'white',
-        cursor: 'pointer',
-
-        '&:hover': {
-           animation: '$up-down 1s infinite linear',
-           borderRadius: '50%',
-        }
-    },
-    
-    
-     '@keyframes up-down': {
-        '0%': { 
-            transform: 'translateY(0)',
-         },
-        '50%': { 
-            transform: 'translateY(10px)',
-            backgroundColor: 'white',
-            color:'black'
-         },
-        '100%': { 
-            transform: 'translateY(0)',
-        }
-     }
-  }));
+import './styles.css'
 
 export const Home = () => {
-    const classes = useStyles()
     const milPx = useMediaQuery('(min-width:1300px)')
 
   return (
@@ -73,11 +19,21 @@ export const Home = () => {
       }}
     >
       <Box
-          className={classes.box}
+          style={{
+            padding:'20px',
+            backgroundColor: '#282828',
+            borderRadius:'10px',
+            display:'flex',
+            flexDirection:'column',
+            margin:'10px'
+        }}
           width={'81%'}
           height={milPx ? '200px' : '100%'}
         >
-          <Box className={classes.boxSecondary} >
+          <Box style={{ 
+            backgroundColor: '#282828',
+            textAlign:'center'
+            }} >
           <Typography
           style={{ fontFamily: 'Tilt Warp, cursive', marginBottom:'20px' }}
           variant="h3"
@@ -86,7 +42,6 @@ export const Home = () => {
             Bem-Vindos! 
         </Typography>
             <Typography
-             className={classes.text}
               style={{ fontFamily: 'Tilt Warp, cursive', color: '#d0d0d0' }}
               variant="body1"
             >
@@ -94,13 +49,25 @@ export const Home = () => {
             </Typography>
           </Box>
         </Box>
-        <Accordion className={classes.accordionRoot}>
+        <Accordion style={{ 
+            backgroundColor:'#282828',
+            width: '81%',
+            marginBottom:'10px',
+            borderRadius:'10px'}}
+            >
             <AccordionSummary
-                expandIcon={<ArrowDownward className={classes.icon} />}
+                expandIcon={<ArrowDownward className="icon"/>}
                 aria-controls="panel1a-content"
                 id="panel1a-header"
             >
-                <Box className={classes.box}>
+                <Box style={{
+            padding:'20px',
+            backgroundColor: '#282828',
+            borderRadius:'10px',
+            display:'flex',
+            flexDirection:'column',
+            margin:'10px'
+        }}>
                     <Typography
                         style={{ fontFamily: 'Tilt Warp, cursive', marginBottom:'15px' }}
                         variant="h5"
@@ -111,18 +78,29 @@ export const Home = () => {
                 </Box>
             </AccordionSummary>
             <AccordionDetails style={{padding:'30px'}}>
-                <Typography  style={{ fontFamily: 'Tilt Warp, cursive' }}>
+                <Typography  style={{ fontFamily: 'Tilt Warp, cursive' }} color={'white'}>
                     Uma fossa séptica é um sistema de tratamento de esgoto doméstico que é usado em áreas sem acesso ao sistema de esgoto público. Ela é uma espécie de tanque enterrado no solo que é projetado para receber e tratar os dejetos de um imóvel residencial ou comercial.
                 </Typography>
             </AccordionDetails>
         </Accordion>
-        <Accordion className={classes.accordionRoot}>
+        <Accordion style={{ 
+            backgroundColor:'#282828',
+            width: '81%',
+            marginBottom:'10px',
+            borderRadius:'10px'}}>
             <AccordionSummary
-                expandIcon={<ArrowDownward className={classes.icon} />}
+                expandIcon={<ArrowDownward className="icon" />}
                 aria-controls="panel1a-content"
                 id="panel1a-header"
             >
-                <Box className={classes.box}>
+                <Box style={{
+            padding:'20px',
+            backgroundColor: '#282828',
+            borderRadius:'10px',
+            display:'flex',
+            flexDirection:'column',
+            margin:'10px'
+        }}>
                     <Typography
                         style={{ fontFamily: 'Tilt Warp, cursive', marginBottom:'15px' }}
                         variant="h5"
@@ -134,31 +112,42 @@ export const Home = () => {
             </AccordionSummary>
             <AccordionDetails>
                 <table style={{padding:'20px'}}>
-                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>
-                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive'}}>• Licença ou autorização da autoridade local: </span><br/>A construção de uma fossa séptica requer uma autorização ou licença da autoridade local competente, como a prefeitura, secretaria do meio ambiente ou órgão sanitário.
+                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>
+                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive', color:'white'}}>• Licença ou autorização da autoridade local: </span><br/>A construção de uma fossa séptica requer uma autorização ou licença da autoridade local competente, como a prefeitura, secretaria do meio ambiente ou órgão sanitário.
                     </ul>
-                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>
-                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive'}}>• Projeto de construção: </span><br/>  Um projeto de construção detalhado é necessário para garantir que a fossa séptica seja construída de acordo com as especificações exigidas pelas normas e regulamentações locais. Esse projeto deve incluir as dimensões da fossa, o material de construção, o sistema de distribuição do efluente tratado e o local da instalação.
+                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>
+                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive', color:'white'}}>• Projeto de construção: </span><br/>  Um projeto de construção detalhado é necessário para garantir que a fossa séptica seja construída de acordo com as especificações exigidas pelas normas e regulamentações locais. Esse projeto deve incluir as dimensões da fossa, o material de construção, o sistema de distribuição do efluente tratado e o local da instalação.
                     </ul>
-                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>
-                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive'}}>• Avaliação do solo: </span><br/>  Antes de construir a fossa séptica, é importante avaliar o solo onde ela será instalada. A avaliação do solo é feita para determinar se o solo é adequado para a construção da fossa e se atende aos requisitos de infiltração.
+                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>
+                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive', color:'white'}}>• Avaliação do solo: </span><br/>  Antes de construir a fossa séptica, é importante avaliar o solo onde ela será instalada. A avaliação do solo é feita para determinar se o solo é adequado para a construção da fossa e se atende aos requisitos de infiltração.
                     </ul>
-                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>
-                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive'}}>• Plano de manutenção: </span><br/> É importante ter um plano de manutenção da fossa séptica para garantir seu bom funcionamento ao longo do tempo. O plano de manutenção deve incluir informações sobre a frequência de limpeza e esvaziamento da fossa, inspeção e reparo do sistema de distribuição do efluente tratado, e outras medidas preventivas.
+                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>
+                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive', color:'white'}}>• Plano de manutenção: </span><br/> É importante ter um plano de manutenção da fossa séptica para garantir seu bom funcionamento ao longo do tempo. O plano de manutenção deve incluir informações sobre a frequência de limpeza e esvaziamento da fossa, inspeção e reparo do sistema de distribuição do efluente tratado, e outras medidas preventivas.
                     </ul>
-                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>
-                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive'}}>• Autorização de uso do terreno: </span><br/>Caso a fossa séptica seja construída em um terreno que não seja de propriedade do solicitante, é necessário obter uma autorização de uso do terreno por parte do proprietário.
+                    <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>
+                        <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive', color:'white'}}>• Autorização de uso do terreno: </span><br/>Caso a fossa séptica seja construída em um terreno que não seja de propriedade do solicitante, é necessário obter uma autorização de uso do terreno por parte do proprietário.
                     </ul>
                 </table>
             </AccordionDetails>
         </Accordion>
-        <Accordion className={classes.accordionRoot}>
+        <Accordion style={{ 
+            backgroundColor:'#282828',
+            width: '81%',
+            marginBottom:'10px',
+            borderRadius:'10px'}}>
             <AccordionSummary
-                expandIcon={<ArrowDownward className={classes.icon} />}
+                expandIcon={<ArrowDownward className="icon" />}
                 aria-controls="panel1a-content"
                 id="panel1a-header"
             >
-                <Box className={classes.box}>
+                <Box style={{
+            padding:'20px',
+            backgroundColor: '#282828',
+            borderRadius:'10px',
+            display:'flex',
+            flexDirection:'column',
+            margin:'10px'
+        }}>
                     <Typography
                         style={{ fontFamily: 'Tilt Warp, cursive', marginBottom:'15px' }}
                         variant="h5"
@@ -171,32 +160,43 @@ export const Home = () => {
             <AccordionDetails>
                 <div style={{display:'flex', width:'100%', justifyContent:'center'}}>
                     <table style={{padding:'20px'}}>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Tubos de PVC </ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Cimento</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Areia</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Pedra britada</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Tampas para os tubos de inspeção</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Chapa metálica</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Manta geotêxtil</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Tubos de PVC </ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Cimento</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Areia</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Pedra britada</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Tampas para os tubos de inspeção</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Chapa metálica</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Manta geotêxtil</ul>
                     </table>
                     <table style={{padding:'20px'}}>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Tinta para impermeabilização</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Bombas para o sistema de drenagem</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Ferramentas de escavação (pás, enxadas, picaretas, etc.)</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Nível de bolha</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Medidor de PH</ul>
-                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>• Luvas e equipamentos de proteção individual (EPIs)</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Tinta para impermeabilização</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Bombas para o sistema de drenagem</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Ferramentas de escavação (pás, enxadas, picaretas, etc.)</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Nível de bolha</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Medidor de PH</ul>
+                        <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px', color:'white'}}>• Luvas e equipamentos de proteção individual (EPIs)</ul>
                     </table>
                 </div>
             </AccordionDetails>
         </Accordion>
-        <Accordion className={classes.accordionRoot}>
+        <Accordion style={{ 
+            backgroundColor:'#282828',
+            width: '81%',
+            marginBottom:'10px',
+            borderRadius:'10px'}}>
             <AccordionSummary
-                expandIcon={<ArrowDownward className={classes.icon} />}
+                expandIcon={<ArrowDownward className="icon" />}
                 aria-controls="panel1a-content"
                 id="panel1a-header"
             >
-                <Box className={classes.box}>
+                <Box style={{
+            padding:'20px',
+            backgroundColor: '#282828',
+            borderRadius:'10px',
+            display:'flex',
+            flexDirection:'column',
+            margin:'10px'
+        }}>
                     <Typography
                         style={{ fontFamily: 'Tilt Warp, cursive', marginBottom:'15px' }}
                         variant="h5"
@@ -207,7 +207,7 @@ export const Home = () => {
                 </Box>
             </AccordionSummary>
             <AccordionDetails>
-                <table style={{padding:'20px'}}>
+                <table style={{padding:'20px' , color:'white'}}>
                     <ul style={{fontFamily: 'Tilt Warp, cursive', marginBottom:'20px'}}>
                         <span style={{fontSize:'1.5rem',fontFamily: 'Tilt Warp, cursive'}}>
                             • Escolha do local: 

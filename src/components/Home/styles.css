@@ -1,0 +1,23 @@
+.icon {
+    color:white;
+    cursor: pointer;
+}
+
+.icon:hover {
+    animation: up-down 1s infinite linear;
+    border-radius: 50%;
+}
+
+@keyframes up-down {
+    0% { 
+        transform: translateY(0);
+     }
+    50% { 
+        transform: translateY(10px);
+        background-color: white;
+        color:black;
+     }
+    100% { 
+        transform: translateY(0);
+    }
+ }
