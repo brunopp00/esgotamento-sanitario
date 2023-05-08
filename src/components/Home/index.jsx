@@ -58,7 +58,7 @@ export const Home = () => {
           >
             Neste site vocês conhecerão nosso trabalho sobre o Esgotamento
             Sanitário. Realizamos este projeto em pareceria com a Prefeitura
-            Municipal de Maratá, com o objetivo de mostrar à população como deve
+            Municipal de Maratá, com o objetivo de mostrar à popliação como deve
             ser a construção adequada das fossas residenciais e evidenciar
             possíveis problemas causados pela má elaboração das mesmas.
           </Typography>
@@ -145,7 +145,7 @@ export const Home = () => {
           <table
             style={{ padding: '20px', textAlign: mobile ? 'start' : 'center' }}
           >
-            <ul
+            <li
               style={{
                 fontFamily: 'Tilt Warp, cursive',
                 marginBottom: '20px',
@@ -159,13 +159,13 @@ export const Home = () => {
                   color: 'white',
                 }}
               >
-                • Licença ou autorização da autoridade local:{' '}
+                Licença ou autorização da autoridade local:{' '}
               </span>
               <br />A construção de uma fossa séptica requer uma autorização ou
               licença da autoridade local competente, como a prefeitura,
               secretaria do meio ambiente ou órgão sanitário.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{
                 fontFamily: 'Tilt Warp, cursive',
                 marginBottom: '20px',
@@ -179,16 +179,16 @@ export const Home = () => {
                   color: 'white',
                 }}
               >
-                • Projeto de construção:{' '}
+                Projeto de construção:{' '}
               </span>
               <br /> Um projeto de construção detalhado é necessário para
               garantir que a fossa séptica seja construída de acordo com as
-              especificações exigidas pelas normas e regulamentações locais.
+              especificações exigidas pelas normas e regliamentações locais.
               Esse projeto deve incluir as dimensões da fossa, o material de
               construção, o sistema de distribuição do efluente tratado e o
               local da instalação.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{
                 fontFamily: 'Tilt Warp, cursive',
                 marginBottom: '20px',
@@ -202,14 +202,14 @@ export const Home = () => {
                   color: 'white',
                 }}
               >
-                • Avaliação do solo:{' '}
+                Avaliação do solo:{' '}
               </span>
               <br /> Antes de construir a fossa séptica, é importante avaliar o
               solo onde ela será instalada. A avaliação do solo é feita para
               determinar se o solo é adequado para a construção da fossa e se
               atende aos requisitos de infiltração.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{
                 fontFamily: 'Tilt Warp, cursive',
                 marginBottom: '20px',
@@ -223,15 +223,15 @@ export const Home = () => {
                   color: 'white',
                 }}
               >
-                • Plano de manutenção:{' '}
+                Plano de manutenção:{' '}
               </span>
               <br /> É importante ter um plano de manutenção da fossa séptica
               para garantir seu bom funcionamento ao longo do tempo. O plano de
               manutenção deve incluir informações sobre a frequência de limpeza
               e esvaziamento da fossa, inspeção e reparo do sistema de
               distribuição do efluente tratado, e outras medidas preventivas.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{
                 fontFamily: 'Tilt Warp, cursive',
                 marginBottom: '20px',
@@ -245,13 +245,13 @@ export const Home = () => {
                   color: 'white',
                 }}
               >
-                • Autorização de uso do terreno:{' '}
+                Autorização de uso do terreno:{' '}
               </span>
               <br />
               Caso a fossa séptica seja construída em um terreno que não seja de
               propriedade do solicitante, é necessário obter uma autorização de
               uso do terreno por parte do proprietário.
-            </ul>
+            </li>
           </table>
         </AccordionDetails>
       </Accordion>
@@ -296,125 +296,125 @@ export const Home = () => {
             }}
           >
             <table style={{ padding: '20px' }}>
-              <ul
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Tubos de PVC{' '}
-              </ul>
-              <ul
+                Tubos de PVC{' '}
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Cimento
-              </ul>
-              <ul
+                Cimento
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Areia
-              </ul>
-              <ul
+                Areia
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Pedra britada
-              </ul>
-              <ul
+                Pedra britada
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Tampas para os tubos de inspeção
-              </ul>
-              <ul
+                Tampas para os tubos de inspeção
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Chapa metálica
-              </ul>
-              <ul
+                Chapa metálica
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Manta geotêxtil
-              </ul>
+                Manta geotêxtil
+              </li>
             </table>
             <table style={{ padding: '20px' }}>
-              <ul
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Tinta para impermeabilização
-              </ul>
-              <ul
+                Tinta para impermeabilização
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Bombas para o sistema de drenagem
-              </ul>
-              <ul
+                Bombas para o sistema de drenagem
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Ferramentas de escavação (pás, enxadas, picaretas, etc.)
-              </ul>
-              <ul
+                Ferramentas de escavação (pás, enxadas, picaretas, etc.)
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Nível de bolha
-              </ul>
-              <ul
+                Nível de bolha
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Medidor de PH
-              </ul>
-              <ul
+                Medidor de PH
+              </li>
+              <li
                 style={{
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                   color: 'white',
                 }}
               >
-                • Luvas e equipamentos de proteção individual (EPIs)
-              </ul>
+                Luvas e equipamentos de proteção individual (EPIs)
+              </li>
             </table>
           </div>
         </AccordionDetails>
@@ -458,143 +458,143 @@ export const Home = () => {
               textAlign: mobile ? 'start' : 'center',
             }}
           >
-            <ul
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Escolha do local:
+                Escolha do local:
               </span>
               <br />
               Escolha um local afastado da casa e de outras construções, com uma
               boa área para escavação e drenagem.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Preparação do terreno:
+                Preparação do terreno:
               </span>
               <br />
               Limpe a área onde a fossa será construída e faça a marcação do
               tamanho da fossa.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Escavação:
+                Escavação:
               </span>
               <br />
               Faça a escavação da fossa, que deve ter uma profundidade de pelo
-              menos 1,5 metros e uma largura que permita a circulação de uma
-              pessoa dentro dela. A fossa deve ter um formato retangular ou
-              circular.
-            </ul>
-            <ul
+              menos 1,5 metros e uma largura que permita a circliação de uma
+              pessoa dentro dela. A fossa deve ter um formato retangliar ou
+              circliar.
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Colocação do anel de concreto:
+                Colocação do anel de concreto:
               </span>
               <br />
               Coloque um anel de concreto na parte superior da fossa para servir
               de base para a tampa.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Instalação do tubo de entrada:
+                Instalação do tubo de entrada:
               </span>
               <br />
               Instale o tubo de entrada, que deve ser de PVC e ter cerca de 10
               cm de diâmetro. Ele deve ser conectado ao esgoto da casa e
               desembocar no topo da fossa.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Instalação do tubo de saída:
+                Instalação do tubo de saída:
               </span>
               <br />
               Instale o tubo de saída, que também deve ser de PVC e ter cerca de
               10 cm de diâmetro. Ele deve sair na parte lateral da fossa e
               conectar-se a um sistema de drenagem ou vala de infiltração.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Preenchimento do fundo da fossa:
+                Preenchimento do fundo da fossa:
               </span>
               <br />
               Coloque uma camada de pedra brita ou pedrisco no fundo da fossa,
               com cerca de 10 cm de altura.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Instalação do anel de inspeção:
+                Instalação do anel de inspeção:
               </span>
               <br />
               Coloque um anel de concreto com tampa na parte superior do tubo de
               entrada para permitir a inspeção e a limpeza da fossa.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Revestimento da fossa:
+                Revestimento da fossa:
               </span>
               <br />
               Revesta as paredes da fossa com tijolos ou blocos de concreto,
               deixando uma abertura na parte superior para a tampa.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Instalação da tampa:
+                Instalação da tampa:
               </span>
               <br />
               Coloque uma tampa de concreto ou plástico na parte superior da
               fossa, deixando uma abertura para a inspeção e a limpeza.
-            </ul>
-            <ul
+            </li>
+            <li
               style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
             >
               <span
                 style={{ fontSize: '1.5rem', fontFamily: 'Tilt Warp, cursive' }}
               >
-                • Conclusão:
+                Conclusão:
               </span>
               <br />
               Verifique se todas as conexões estão bem feitas e finalize a
               construção da fossa com o preenchimento da área ao redor com terra
               e grama.
-            </ul>
+            </li>
           </table>
         </AccordionDetails>
       </Accordion>
