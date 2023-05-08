@@ -15,6 +15,18 @@
     border-radius:10px;
 }
 
+#my-alert {
+    animation: aparece 1s normal linear;
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 1px solid transparent;
+    z-index: 1;
+  }
+
 @keyframes up-down {
     0% { 
         transform: translateY(0);
@@ -26,5 +38,15 @@
      }
     100% { 
         transform: translateY(0);
+    }
+ }
+
+ @keyframes aparece {
+    0% { 
+        transform: translate(-50%, -350%);
+     }
+    100% { 
+        transform: translate(-50%, -50%);
+        
     }
  }
