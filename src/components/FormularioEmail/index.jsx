@@ -105,7 +105,7 @@ export function FormularioEmail({ enviaEmail }) {
                 name="conteudo"
                 variant="outlined"
                 margin="dense"
-                label="Duvida"
+                label="Dúvida"
               />
               {errors.conteudo && (
                 <Typography color={'#f30707'}>{errors.conteudo}</Typography>
