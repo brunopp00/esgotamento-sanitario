@@ -79,6 +79,7 @@ export const Home = () => {
             display: 'flex',
             flexDirection: 'column',
             margin: '10px',
+            width: mobile ? '81%' : '90%',
           }}
           width={'81%'}
           height={milPx ? '200px' : '100%'}
@@ -112,7 +113,7 @@ export const Home = () => {
         <Accordion
           style={{
             backgroundColor: '#014703',
-            width: '81%',
+            width: mobile ? '81%' : '90%',
             marginBottom: '10px',
             borderRadius: '10px',
           }}
@@ -161,7 +162,7 @@ export const Home = () => {
         <Accordion
           style={{
             backgroundColor: '#014703',
-            width: '81%',
+            width: mobile ? '81%' : '90%',
             marginBottom: '10px',
             borderRadius: '10px',
           }}
@@ -312,7 +313,7 @@ export const Home = () => {
         <Accordion
           style={{
             backgroundColor: '#014703',
-            width: '81%',
+            width: mobile ? '81%' : '90%',
             marginBottom: '10px',
             borderRadius: '10px',
           }}
@@ -479,7 +480,7 @@ export const Home = () => {
         <Accordion
           style={{
             backgroundColor: '#014703',
-            width: '81%',
+            width: mobile ? '81%' : '90%',
             marginBottom: '10px',
             borderRadius: '10px',
           }}
@@ -727,7 +728,7 @@ export const Home = () => {
         <Accordion
           style={{
             backgroundColor: '#014703',
-            width: '81%',
+            width: mobile ? '81%' : '90%',
             marginBottom: '10px',
             borderRadius: '10px',
           }}
