@@ -47,7 +47,7 @@ export const Home = () => {
         >
           <Typography
             style={{ fontFamily: 'Tilt Warp, cursive', marginBottom: '20px' }}
-            variant="h3"
+            variant={mobile ? 'h3' : 'h4'}
             color={'white'}
           >
             Bem-Vindos!
