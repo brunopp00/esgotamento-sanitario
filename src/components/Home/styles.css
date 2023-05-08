@@ -8,6 +8,13 @@
     border-radius: 50%;
 }
 
+.accordion {
+    background-color:#014703;
+    width: 81%;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+
 @keyframes up-down {
     0% { 
         transform: translateY(0);
