@@ -16,6 +16,9 @@ import './styles.css'
 import axios from 'axios'
 import { FormularioEmail } from '../FormularioEmail'
 import { useState } from 'react'
+import logoEcoVideo from '../../assets/logoEcoVideo.jpeg'
+import logoEscola from '../../assets/logoEscola.jpeg'
+import logoMarata from '../../assets/logoMarata.jpeg'
 
 export const Home = () => {
   const milPx = useMediaQuery('(min-width:1300px)')
@@ -763,6 +766,9 @@ export const Home = () => {
             <FormularioEmail enviaEmail={enviaEmail} />
           </AccordionDetails>
         </Accordion>
+        <img className="image" src={logoEcoVideo} alt="" />
+        <img className="image" src={logoMarata} alt="" />
+        <img className="image" src={logoEscola} alt="" />
       </Grid>
     </>
   )

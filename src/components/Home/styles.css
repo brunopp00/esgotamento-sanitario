@@ -27,6 +27,20 @@
     z-index: 1;
   }
 
+.image {
+    width: 25%;
+    height: 210px;
+    margin:10px;
+    object-fit: unset;
+}
+
+@media(max-width:600px){
+    .image {
+        width: 25%;
+        height: 100px;
+    }
+}
+
 @keyframes up-down {
     0% { 
         transform: translateY(0);
