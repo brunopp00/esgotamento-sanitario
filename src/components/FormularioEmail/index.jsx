@@ -6,6 +6,8 @@ import {
   Typography,
 } from '@mui/material'
 import { Field, Form, Formik } from 'formik'
+import './styles.css'
+import { ArrowSquareOut } from 'phosphor-react'
 
 const initialValues = {
   email: '',
@@ -127,6 +129,17 @@ export function FormularioEmail({ enviaEmail }) {
               >
                 Mandar pergunta
               </Button>
+            </Grid>
+            <Grid item xs={12}>
+              <a
+                href="https://www.youtube.com/watch?v=gj8uRiixFXo&ab_channel=IsadoraSchmidt"
+                target="_blank"
+                className="link"
+                rel="noreferrer"
+              >
+                <ArrowSquareOut size={18} />
+                Nosso vídeo do projeto EcoVideo.
+              </a>
             </Grid>
           </Grid>
         </Form>
