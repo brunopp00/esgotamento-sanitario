@@ -141,6 +141,18 @@ export function FormularioEmail({ enviaEmail }) {
                 Nosso vídeo do projeto EcoVideo.
               </a>
             </Grid>
+            <Grid item xs={12}>
+              <a
+                href="https://drive.google.com/file/d/1Mp7dFDjOqvQoG3NPjTk_dh8WYP6ICMey/view?usp=drive_link"
+                target="_blank"
+                className="link"
+                rel="noreferrer"
+              >
+                <ArrowSquareOut size={18} />
+                Plano Diretor de Desenvolvimento Urbano e Rural do Município de
+                Maratá e dá outras providências.
+              </a>
+            </Grid>
           </Grid>
         </Form>
       )}
