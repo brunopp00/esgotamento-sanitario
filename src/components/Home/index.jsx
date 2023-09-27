@@ -364,7 +364,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Tubos de PVC{' '}
+                  Tubos de PVC (R$ 32,90 o metro){' '}
                 </li>
                 <li
                   style={{
@@ -373,7 +373,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Cimento
+                  Cimento (R$ 42,90 cada 50kg)
                 </li>
                 <li
                   style={{
@@ -382,7 +382,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Areia
+                  Areia (R$ 172,90 o metro)
                 </li>
                 <li
                   style={{
@@ -391,7 +391,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Pedra britada
+                  Pedra britada (R$ 5,79 cada 25kg)
                 </li>
                 <li
                   style={{
@@ -400,7 +400,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Tampas para os tubos de inspeção
+                  Tampas para os tubos de inspeção (R$ 149,00 cada)
                 </li>
                 <li
                   style={{
@@ -409,7 +409,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Chapa metálica
+                  Chapa metálica (R$ 99,00 cada)
                 </li>
                 <li
                   style={{
@@ -418,7 +418,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Manta geotêxtil
+                  Manta geotêxtil (R$ 20,14 a cada 2m)
                 </li>
               </table>
               <table style={{ padding: '20px' }}>
@@ -429,7 +429,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Tinta para impermeabilização
+                  Tinta para impermeabilização (R$ 45,04 a cada 3.6L)
                 </li>
                 <li
                   style={{
@@ -438,7 +438,7 @@ export const Home = () => {
                     color: 'white',
                   }}
                 >
-                  Bombas para o sistema de drenagem
+                  Bombas para o sistema de drenagem (R$ 159,90)
                 </li>
                 <li
                   style={{
@@ -478,6 +478,19 @@ export const Home = () => {
                 </li>
               </table>
             </div>
+            <h1
+              style={{
+                display: 'flex',
+                width: '100%',
+                justifyContent: 'center',
+                textAlign: mobile ? 'start' : 'center',
+                fontFamily: 'Tilt Warp, cursive',
+                marginBottom: '20px',
+                color: 'white',
+              }}
+            >
+              O preço total varia entre $3.000 a $10.000
+            </h1>
           </AccordionDetails>
         </Accordion>
         <Accordion
