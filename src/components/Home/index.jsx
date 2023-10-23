@@ -354,6 +354,7 @@ export const Home = () => {
                 width: '100%',
                 justifyContent: 'center',
                 textAlign: mobile ? 'start' : 'center',
+                gap: mobile ? '100px' : '10px',
               }}
             >
               <table style={{ padding: '20px' }}>
@@ -478,7 +479,7 @@ export const Home = () => {
                 </li>
               </table>
             </div>
-            <h1
+            <p
               style={{
                 display: 'flex',
                 width: '100%',
@@ -487,10 +488,11 @@ export const Home = () => {
                 fontFamily: 'Tilt Warp, cursive',
                 marginBottom: '20px',
                 color: 'white',
+                fontSize: '1.5rem',
               }}
             >
-              O preço total varia entre $3.000 a $10.000
-            </h1>
+              O preço total varia entre R$3.000 a R$10.000
+            </p>
           </AccordionDetails>
         </Accordion>
         <Accordion
