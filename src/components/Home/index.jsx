@@ -19,6 +19,7 @@ import { useState } from 'react'
 import logoEcoVideo from '../../assets/logoEcoVideo.jpeg'
 import logoEscola from '../../assets/logoEscola.jpeg'
 import logoMarata from '../../assets/logoMarata.jpeg'
+import fossaSeptica from '../../assets/fossa_septica.png'
 
 export const Home = () => {
   const milPx = useMediaQuery('(min-width:1300px)')
@@ -755,6 +756,7 @@ export const Home = () => {
                   Conclusão:
                 </span>
                 <br />
+                <img className="image" src={fossaSeptica} alt="" />
                 Fonte: <a src="https://www.teraambiental.com.br/blog-da-tera-ambiental/tratamento-de-efluentes-de-fossa-septica-caixa-de-gordura-e-efluente-sanitario">Blog Tera Ambiental (2013)</a>
               </li>
             </table>
