@@ -744,13 +744,13 @@ export const Home = () => {
               <div
                 style={{
                   display: 'flex',
-                  gap:'10px'
+                  gap:'10px',
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
                 }}
               >
                 <br />
-                <img style={{width: '50%' height: '30%'}} src={fossaSeptica} alt="" />
+                <img style={{width: '50%', height: '30%'}} src={fossaSeptica} alt="" />
                 <br/>
                 Fonte:
                 <a href="https://www.teraambiental.com.br/blog-da-tera-ambiental/tratamento-de-efluentes-de-fossa-septica-caixa-de-gordura-e-efluente-sanitario"
