@@ -749,6 +749,7 @@ export const Home = () => {
               >
                 <br />
                 <img className="image" src={fossaSeptica} alt="" />
+                <br/>
                 Fonte: <a src="https://www.teraambiental.com.br/blog-da-tera-ambiental/tratamento-de-efluentes-de-fossa-septica-caixa-de-gordura-e-efluente-sanitario">Blog Tera Ambiental (2013)</a>
               </li>
             </table>
