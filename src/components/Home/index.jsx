@@ -19,7 +19,7 @@ import { useState } from 'react'
 import logoEcoVideo from '../../assets/logoEcoVideo.jpeg'
 import logoEscola from '../../assets/logoEscola.jpeg'
 import logoMarata from '../../assets/logoMarata.jpeg'
-import fossaSeptica from '../../assets/fossa_septica.png'
+import fossaSeptica from '../../assets/fossa_septica1.png'
 
 export const Home = () => {
   const milPx = useMediaQuery('(min-width:1300px)')
@@ -744,6 +744,7 @@ export const Home = () => {
               <div
                 style={{
                   display: 'flex',
+                  flexDirection:'column',
                   gap:'10px',
                   fontFamily: 'Tilt Warp, cursive',
                   marginBottom: '20px',
