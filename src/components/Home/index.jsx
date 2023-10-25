@@ -753,7 +753,7 @@ export const Home = () => {
                 Fonte:
                 <a href="https://www.teraambiental.com.br/blog-da-tera-ambiental/tratamento-de-efluentes-de-fossa-septica-caixa-de-gordura-e-efluente-sanitario"
                 target="_blank"
-                className="link">Blog Tera Ambiental (2013)</a>
+                >Blog Tera Ambiental (2013)</a>
               </div>
             </table>
           </AccordionDetails>
